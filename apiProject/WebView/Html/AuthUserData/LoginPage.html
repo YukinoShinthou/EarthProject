@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Login form in HTML and CSS </title>
+    <link rel="stylesheet" href="../../Css/authUserDataCss/Loginstyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+<div class="wrapper">
+    <form id="LoginForm">
+        <h1>Login</h1>
+
+            <div class="input-box ">
+                    <input type="text" id="username" placeholder="Username" required>
+                    <i class='bx bxs-user'></i>
+                        <i class='bx bxs-check-circle'></i>
+                        <i class='bx bxs-info-circle' ></i>
+                        <div class="error"></div>
+            </div>
+
+            <div class="input-box">
+                <input type="password" id="password" placeholder="Password" required>
+                <i class='bx bxs-lock-alt' ></i>
+                    <i class='bx bxs-check-circle'></i>
+                    <i class='bx bxs-info-circle' ></i>
+                    <div class="error"></div>
+        </div>
+
+        <button type="submit" class="btn">Login</button>
+
+        <div class="register-link">
+        <p>Don't have an account?
+        <a href="RegistrationPage.html">Register</a></p>
+        </div>
+    </form>
+</div>
+<script src="../../JavaScript/auth.js">
+
+    </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</body>
+</html>
